@@ -77,6 +77,7 @@ unchained start conf.yaml --generate
 > 5 dakikada bir gözüken Leaderboard'da siz OLMAYACAKSINIZ
 > Bu leaderboard - sizin node'larınız tarafından diğer nodelara verilen puanlardır
 > Sizde başkaların nodelarından puan alacaksınız, ödül nodlar arası iletişim hızına ve erişime dayalıdır - hetzner'iniz varsa kafanız rahat olabilir.
+> Node u restart etmek zorunda kalırsnız '--generate' opsionunu kaldırın. Yoksa sistemi yeni bir node olarak algılar.
 ```
 
 > conf.yaml içinde ki secret key önemli, `cat conf.yaml` komut ile çıktıyı kaydedebilirsiniz.
