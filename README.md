@@ -1,10 +1,10 @@
 <h1 align="center">Kenshi</h1>
 
-> Kurulumu kolay - ne kadar süreceğini bilmiyorum belli değil - donanım için yeni sunucuya gerek yok
+> Süresi belli değil - diğer nodlarınızla yanyana kurabilirsiniz.
 
-> Ödüllü evet - ama top 200'e - herkes kurabilir ama en iyi performansı veren 200 node ödül alabilir.
+> Ödül top 200'e - ödüller sadece en iyi performansı veren nodlara dağıtılacak.
 
-> TOPLULUK KANALLARI: [Sohbet Kanalımız](https://t.me/RuesChat) - [Duyurular ve Gelişmeler](https://t.me/RuesAnnouncement) - [Whatsapp](https://whatsapp.com/channel/0029VaBcj7V1dAw1H2KhMk34) - [Kenshi Telegram](https://t.me/KenshiTech)
+> TOPLULUK KANALLARI: [Sohbet Kanalımız](https://t.me/RuesChat) - [Duyurular ve Gelişmeler](https://t.me/RuesAnnouncement) - [Whatsapp](https://whatsapp.com/channel/0029VaBcj7V1dAw1H2KhMk34) - [SandWorm telegram](https://t.me/arrakissand) - [Kenshi Telegram](https://t.me/KenshiTech)
 
 #
 
@@ -46,9 +46,9 @@ sudo npm i -g @kenshi.io/unchained@latest
 # conf.yaml içine girelim
 sudo nano conf.yaml
 
-# burada sadece Rues kısmını kendi adınız yapın - gerisini ben ayarladım
+# burada sadece SandWorm kısmını kendi adınız yapın
 log: info
-name: Rues
+name: SandWorm
 lite: true
 gossip: 5
 rpc:
@@ -76,14 +76,10 @@ unchained start conf.yaml --generate
 > Son komuttan sonra loglar akmaya başlayacak ve sync olmaya başlayacaksınız
 > 5 dakikada bir gözüken Leaderboard'da siz OLMAYACAKSINIZ
 > Bu leaderboard - sizin node'larınız tarafından diğer nodelara verilen puanlardır
-> Sizde başkaların nodelarından puan alacaksınız - hetzner'iniz varsa kafanız rahat olabilir.
+> Sizde başkaların nodelarından puan alacaksınız, ödül nodlar arası iletişim hızına ve erişime dayalıdır - hetzner'iniz varsa kafanız rahat olabilir.
 ```
 
-> WinSCP veya mobaxterm benzeri bir uygulama ile conf.yaml dosyasını yedekleyelim.
+> conf.yaml içinde ki secret key önemli, `cat conf.yaml` komut ile çıktıyı kaydedebilirsiniz.
 
-> Veya `cat conf.yaml` komut ile çıktıyı kaydedebilirsiniz.
-
-> conf.yaml içinde ki secret key önemli olan.
-
-> Kendinizi [burada](https://charts.mongodb.com/charts-unchained-gpust/public/dashboards/cbb6ccf6-15b2-4187-be56-ff9d2e25a48a) contributions kısmında bulabilirsiniz.
+> Sistemi [burada](https://charts.mongodb.com/charts-unchained-gpust/public/dashboards/cbb6ccf6-15b2-4187-be56-ff9d2e25a48a) kontrol edebilirsiniz. Henüz kendi nodunuzun sırlaması nasıl görünecek belli değil.
 
